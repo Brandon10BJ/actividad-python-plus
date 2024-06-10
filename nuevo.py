@@ -51,20 +51,16 @@ print('punto d')
 print(df.dtypes)
 
 #e--------------
-#ventaja 1
-#Funciones integradas de limpieza y transformación de datos: pandas ofrece una amplia gama de funciones integradas para limpiar y
-#  transformar datos de manera eficiente, incluyendo eliminación de filas/columnas duplicadas, manejo de valores nulos, 
-# filtrado de datos, y operaciones de concatenación y fusión de DataFrames. Estas funciones simplifican el proceso de preparación de datos 
-# para el análisis y facilitan la implementación de flujos de trabajo de procesamiento de datos complejos.
+# ventaja 1
+# Con Pandas, puedes limpiar y transformar tus datos fácilmente. Puedes eliminar filas o columnas duplicadas, manejar valores nulos y 
+# filtrar tus datos de forma sencilla. 
 
+# ventaja 2
+# Con pandas, no estás limitado a trabajar solo con archivos CSV. La librería proporciona métodos para leer y escribir datos en una variedad
+# de formatos, incluyendo Excel, HDF5, SQL, JSON, HTML, entre otros, lo que nos brinda ms flexibilidad. 
 
-#ventaja 2
-#Con pandas, no estás limitado a trabajar solo con archivos CSV. La librería proporciona métodos para leer y escribir datos en una variedad
-#  de formatos, incluyendo Excel, HDF5, SQL, JSON, HTML, entre otros. 
-
-#ventaja 3
-#Pandas está optimizado para el manejo de datos en memoria y utiliza estructuras de datos eficientes, como DataFrames y Series, 
-# que permiten realizar operaciones vectorizadas y paralelizadas en los datos. Esto significa que puedes realizar operaciones de limpieza, 
+# ventaja 3
+# Pandas está optimizado para el manejo de datos en memoria y utiliza estructuras de datos eficientes, como DataFrames y Series, 
+# que permiten realizar operaciones vectorizadas y paralelizadas en los datos. Esto significa que pueden hacer operaciones de limpieza, 
 # transformación y análisis en conjuntos de datos grandes de manera rápida y eficiente, sin tener que preocuparte por problemas de rendimiento o 
-# limitaciones de memoria. Además, pandas ofrece métodos y funciones optimizadas para una variedad de operaciones comunes, 
-# lo que simplifica el proceso de manipulación de datos y permite escribir código más limpio y conciso.
+# limitaciones de memoria.
